@@ -1,2 +1,5 @@
 # searchingAndSortingAlgo
-#Bubble Sort
+# Bubble Sort
+# Selection Sort
+
+
