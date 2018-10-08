@@ -1,3 +1,14 @@
+/**
+ * 
+ * Prims algorithm use Geedy method to solve the MST problem.
+ * This algorithm may or may not work for -ve edge graph.
+ */
+
+
+/**
+ * 
+ * @param {Array} g represents graph with 2 dimentional Array 
+ */
 function Prims(g) {
   let vertexCount = g.length -1,
     path = Array(g.length).fill(Number.MAX_SAFE_INTEGER),
