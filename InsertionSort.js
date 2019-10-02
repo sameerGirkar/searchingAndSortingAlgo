@@ -19,3 +19,18 @@ InsertionSort([20,10,40,3,6]);
 /**
  * Time Complexity O(n^2)
  */
+
+/**
+ * Can also be written as below.
+ */
+
+function InsertionSort2(a) {
+  for(var i=0; i < a.length-1; i++){
+    var j = i+1;
+    while(j > 0 && a[j] < a[j-1]){
+       [a[j], a[j-1]] = [a[j-1], a[j]];
+      j--;
+    }
+  }
+  return a;
+}
