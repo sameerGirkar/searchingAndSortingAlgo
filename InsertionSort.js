@@ -34,3 +34,4 @@ function InsertionSort2(a) {
   }
   return a;
 }
+InsertionSort2([20,10,40,3,6]);
