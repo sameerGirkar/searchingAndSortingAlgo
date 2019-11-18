@@ -2,7 +2,7 @@
 //https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=33&t=0s
 /**
  * Time complexity is O(nlog(n))
- * but if we do detail analysis its O(n)
+ * but if we do detail analysis its O(n) "https://www.youtube.com/watch?v=B7hVxCmfPtM"
  * Observations
  * 1. Node at level 1 take only O(1 c) as constant time - n/4 nodes at level 1
  * 2. Node at level 2 take only O(2 c) as constant time - n/8 nodes at level 2
