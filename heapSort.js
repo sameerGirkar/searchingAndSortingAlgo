@@ -18,7 +18,9 @@
  * @param {Number} n heap size - considering heap starts with 1
  * @param {Number} i root node
  */
-function _heapify(arr, n, i) {debugger;
+
+//Heapfiy is top down procedure.
+function _heapify(arr, n, i) {
   let left = 2*i + 1,
     right = 2*i + 2,
     largestIndex = i;
@@ -38,11 +40,13 @@ function _heapify(arr, n, i) {debugger;
 
 function heapSort(arr) {debugger;
   let n = arr.length;
+  //Create head, To create heap need to run heapify on all sub trees as root (n/2 - 1) to 0 nodes.                       
   // after this for loop arr[0] is largest element in array
   for(let i = Math.floor(n/2)- 1; i >= 0; i--) {
     _heapify(arr, n, i);
   }
-
+  
+  //Here Heap is created hence largest element is at the 0 index mence root node.                        
   for(let i= n-1; i >= 0; i--) {
     // i represents the heap size
     // heap size is n-1 because 1 element is already sorted by above for loop
