@@ -38,7 +38,7 @@ function _heapify(arr, n, i) {
   }
 }
 
-function heapSort(arr) {debugger;
+function heapSort(arr) {
   let n = arr.length;
   //Create head, To create heap need to run heapify on all sub trees as root (n/2 - 1) to 0 nodes.                       
   // after this for loop arr[0] is largest element in array
