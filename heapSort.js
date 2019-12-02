@@ -20,7 +20,7 @@
  */
 
 // Heapfiy is top down procedure.
-// Create the heap in array arr from start index i to n.
+// Create the heap in array arr from start index i to n size.
 function _heapify(arr, n, i) {
   let left = 2*i + 1,
     right = 2*i + 2,
