@@ -32,6 +32,8 @@ function InsertionSort2(a) {
       j--;
     }
   }
+
+  // Reference: https://www.youtube.com/watch?v=gbJzL6IJig0&list=PLjuNEWpkTZauDAstircLx0B-tsERPsjtT&index=3
   return a;
 }
 InsertionSort2([20,10,40,3,6]);
