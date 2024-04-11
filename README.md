@@ -10,6 +10,7 @@
   9. Bellman ford Algorithm - O(n^3)
 
 # Reference doc
+* [Sorting Videos](https://www.youtube.com/playlist?list=PLjuNEWpkTZauDAstircLx0B-tsERPsjtT)
 * [Important reference Doc from Abdul bari](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 
